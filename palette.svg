@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg" width="800" height="160">
+  <rect width="800" height="160" fill="#151A24" rx="10"/>
+  <text x="24" y="28" font-family="monospace" font-size="13" font-weight="600" fill="#E0DAC8" letter-spacing="2">Concourse</text>
+
+  <!-- Neutrals -->
+  <rect x="24"  y="42" width="90" height="36" fill="#151A24" rx="4" stroke="#2A3448" stroke-width="1"/>
+  <rect x="118" y="42" width="90" height="36" fill="#1D2535" rx="4"/>
+  <rect x="212" y="42" width="90" height="36" fill="#2A3448" rx="4"/>
+  <rect x="306" y="42" width="90" height="36" fill="#3D4F66" rx="4"/>
+  <rect x="400" y="42" width="90" height="36" fill="#5E7088" rx="4"/>
+  <rect x="494" y="42" width="90" height="36" fill="#96A8BC" rx="4"/>
+  <rect x="588" y="42" width="90" height="36" fill="#E0DAC8" rx="4" stroke="#2A3448" stroke-width="1"/>
+  <rect x="682" y="42" width="90" height="36" fill="#E8EDF2" rx="4" stroke="#2A3448" stroke-width="1"/>
+
+  <!-- Neutral names — all using fog #96A8BC on dark bg below swatches -->
+  <text x="69"  y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">tunnel</text>
+  <text x="163" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">shaft</text>
+  <text x="257" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">dusk</text>
+  <text x="351" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">concrete</text>
+  <text x="445" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">haze</text>
+  <text x="539" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">fog</text>
+  <text x="633" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">cabin</text>
+  <text x="727" y="92" font-family="monospace" font-size="8" fill="#96A8BC" text-anchor="middle">sky</text>
+
+  <!-- Accents -->
+  <rect x="24"  y="106" width="90" height="30" fill="#A05252" rx="4"/>
+  <rect x="118" y="106" width="90" height="30" fill="#A0745C" rx="4"/>
+  <rect x="212" y="106" width="90" height="30" fill="#C8B07A" rx="4"/>
+  <rect x="306" y="106" width="90" height="30" fill="#5B7F59" rx="4"/>
+  <rect x="400" y="106" width="90" height="30" fill="#3AAC92" rx="4"/>
+  <rect x="494" y="106" width="90" height="30" fill="#4A86CC" rx="4"/>
+  <rect x="588" y="106" width="90" height="30" fill="#A87088" rx="4"/>
+  <rect x="682" y="106" width="90" height="30" fill="#8A9E6C" rx="4"/>
+
+  <!-- Accent names — all using cabin #E0DAC8 for consistency -->
+  <text x="69"  y="125" font-family="monospace" font-size="8" fill="#E0DAC8" text-anchor="middle">signal</text>
+  <text x="163" y="125" font-family="monospace" font-size="8" fill="#E0DAC8" text-anchor="middle">rust</text>
+  <text x="257" y="125" font-family="monospace" font-size="8" fill="#151A24" text-anchor="middle">platform</text>
+  <text x="351" y="125" font-family="monospace" font-size="8" fill="#E0DAC8" text-anchor="middle">shrub</text>
+  <text x="445" y="125" font-family="monospace" font-size="8" fill="#151A24" text-anchor="middle">oxide</text>
+  <text x="539" y="125" font-family="monospace" font-size="8" fill="#E0DAC8" text-anchor="middle">tide</text>
+  <text x="633" y="125" font-family="monospace" font-size="8" fill="#E0DAC8" text-anchor="middle">column</text>
+  <text x="727" y="125" font-family="monospace" font-size="8" fill="#151A24" text-anchor="middle">canopy</text>
+</svg>
