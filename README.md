@@ -30,7 +30,7 @@ overcast vibes with urban warmth
 | oxide | `#3AAC92` | Cyan |
 | tide | `#4A86CC` | Blue |
 | column | `#A87088` | Magenta |
-| canopy | `#8A9E6C` | Brown |
+| canopy | `#8A9E6C` | Light Green |
 
 ## Installation
 
