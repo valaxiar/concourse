@@ -1,0 +1,213 @@
+
+"ui.background" = { bg = "shaft" }
+"ui.background.separator" = { fg = "concrete" }
+
+"ui.cursor" = { fg = "shaft", bg = "fog" }
+"ui.cursor.normal" = { fg = "shaft", bg = "cabin" }
+"ui.cursor.insert" = { fg = "shaft", bg = "fog" }
+"ui.cursor.select" = { fg = "shaft", bg = "tide" }
+"ui.cursor.match" = { fg = "shaft", bg = "oxide" }
+"ui.cursor.primary" = { fg = "shaft", bg = "cabin" }
+"ui.cursor.primary.normal" = { fg = "shaft", bg = "cabin" }
+"ui.cursor.primary.insert" = { fg = "shaft", bg = "fog" }
+"ui.cursor.primary.select" = { fg = "shaft", bg = "tide" }
+
+"ui.gutter" = { bg = "shaft" }
+"ui.gutter.selected" = { bg = "dusk" }
+"ui.linenr" = { fg = "concrete" }
+"ui.linenr.selected" = { fg = "cabin", modifiers = ["bold"] }
+
+"ui.statusline" = { fg = "fog", bg = "tunnel" }
+"ui.statusline.inactive" = { fg = "haze", bg = "tunnel" }
+"ui.statusline.normal" = { fg = "tunnel", bg = "tide", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "tunnel", bg = "shrub", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "tunnel", bg = "column", modifiers = ["bold"] }
+"ui.statusline.separator" = { fg = "concrete" }
+
+"ui.bufferline" = { fg = "haze", bg = "tunnel" }
+"ui.bufferline.active" = { fg = "cabin", bg = "shaft", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "tunnel" }
+
+"ui.popup" = { fg = "fog", bg = "tunnel" }
+"ui.popup.info" = { fg = "fog", bg = "dusk" }
+
+"ui.window" = { fg = "dusk" }
+"ui.help" = { fg = "fog", bg = "tunnel" }
+
+"ui.text" = { fg = "fog" }
+"ui.text.focus" = { fg = "cabin", bg = "dusk", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "concrete" }
+"ui.text.info" = { fg = "tide" }
+"ui.text.directory" = { fg = "tide" }
+
+"ui.picker.header" = { fg = "fog", bg = "tunnel", modifiers = ["bold"] }
+"ui.picker.header.column" = { fg = "haze" }
+"ui.picker.header.column.active" = { fg = "tide", modifiers = ["bold"] }
+
+"ui.virtual.ruler" = { bg = "dusk" }
+"ui.virtual.whitespace" = { fg = "concrete" }
+"ui.virtual.indent-guide" = { fg = "dusk" }
+"ui.virtual.inlay-hint" = { fg = "concrete", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.parameter" = { fg = "haze", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.type" = { fg = "haze", modifiers = ["italic"] }
+"ui.virtual.wrap" = { fg = "concrete" }
+"ui.virtual.jump-label" = { fg = "platform", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "fog", bg = "tunnel" }
+"ui.menu.selected" = { fg = "cabin", bg = "dusk" }
+"ui.menu.scroll" = { fg = "concrete", bg = "tunnel" }
+
+"ui.selection" = { bg = "dusk" }
+"ui.selection.primary" = { bg = "concrete" }
+
+"ui.highlight" = { bg = "dusk" }
+"ui.highlight.frameline" = { bg = "dusk" }
+
+"ui.cursorline.primary" = { bg = "dusk" }
+"ui.cursorline.secondary" = { bg = "shaft" }
+"ui.cursorcolumn.primary" = { bg = "dusk" }
+"ui.cursorcolumn.secondary" = { bg = "shaft" }
+
+"ui.debug.breakpoint" = { fg = "signal" }
+"ui.debug.active" = { fg = "platform" }
+
+"warning" = { fg = "platform" }
+"error" = { fg = "signal" }
+"info" = { fg = "tide" }
+"hint" = { fg = "haze" }
+"diagnostic" = { underline = { style = "curl" } }
+"diagnostic.hint" = { underline = { color = "haze", style = "dotted" } }
+"diagnostic.info" = { underline = { color = "tide", style = "dotted" } }
+"diagnostic.warning" = { underline = { color = "platform", style = "curl" } }
+"diagnostic.error" = { underline = { color = "signal", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"tabstop" = { fg = "oxide" }
+
+"attribute" = { fg = "platform" }
+
+"type" = { fg = "platform" }
+"type.builtin" = { fg = "column", modifiers = ["italic"] }
+"type.parameter" = { fg = "platform" }
+"type.enum.variant" = { fg = "canopy" }
+
+"constructor" = { fg = "oxide" }
+
+"constant" = { fg = "rust" }
+"constant.builtin" = { fg = "rust" }
+"constant.builtin.boolean" = { fg = "rust" }
+"constant.character" = { fg = "shrub" }
+"constant.character.escape" = { fg = "oxide" }
+"constant.numeric" = { fg = "rust" }
+"constant.numeric.integer" = { fg = "rust" }
+"constant.numeric.float" = { fg = "rust" }
+
+"string" = { fg = "shrub" }
+"string.regexp" = { fg = "platform" }
+"string.special" = { fg = "oxide" }
+"string.special.path" = { fg = "tide" }
+"string.special.url" = { fg = "tide", modifiers = ["underlined"] }
+"string.special.symbol" = { fg = "shrub" }
+
+"comment" = { fg = "concrete", modifiers = ["italic"] }
+"comment.line" = { fg = "concrete", modifiers = ["italic"] }
+"comment.line.documentation" = { fg = "haze", modifiers = ["italic"] }
+"comment.block" = { fg = "concrete", modifiers = ["italic"] }
+"comment.block.documentation" = { fg = "haze", modifiers = ["italic"] }
+"comment.unused" = { fg = "concrete", modifiers = ["italic", "dim"] }
+
+"variable" = { fg = "fog" }
+"variable.builtin" = { fg = "column" }
+"variable.parameter" = { fg = "cabin" }
+"variable.other.member" = { fg = "shrub" }
+"variable.other.member.private" = { fg = "shrub", modifiers = ["italic"] }
+
+"label" = { fg = "oxide" }
+
+"punctuation" = { fg = "haze" }
+"punctuation.delimiter" = { fg = "haze" }
+"punctuation.bracket" = { fg = "haze" }
+"punctuation.special" = { fg = "oxide" }
+
+"keyword" = { fg = "column" }
+"keyword.control" = { fg = "column" }
+"keyword.control.conditional" = { fg = "column" }
+"keyword.control.repeat" = { fg = "column" }
+"keyword.control.import" = { fg = "column" }
+"keyword.control.return" = { fg = "column" }
+"keyword.control.exception" = { fg = "column" }
+"keyword.operator" = { fg = "oxide" }
+"keyword.directive" = { fg = "column" }
+"keyword.function" = { fg = "column" }
+"keyword.storage" = { fg = "column" }
+"keyword.storage.type" = { fg = "column" }
+"keyword.storage.modifier" = { fg = "column" }
+
+"operator" = { fg = "oxide" }
+
+"function" = { fg = "tide" }
+"function.builtin" = { fg = "oxide" }
+"function.method" = { fg = "tide" }
+"function.method.private" = { fg = "tide", modifiers = ["italic"] }
+"function.macro" = { fg = "oxide" }
+"function.special" = { fg = "oxide" }
+
+"tag" = { fg = "signal" }
+"tag.builtin" = { fg = "signal" }
+
+"namespace" = { fg = "oxide", modifiers = ["italic"] }
+
+"special" = { fg = "canopy" }
+
+"markup.heading" = { fg = "cabin", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "concrete" }
+"markup.heading.1" = { fg = "tide", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "oxide", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "shrub", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "platform", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "column", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "canopy", modifiers = ["bold"] }
+"markup.list" = { fg = "fog" }
+"markup.list.unnumbered" = { fg = "fog" }
+"markup.list.numbered" = { fg = "tide" }
+"markup.list.checked" = { fg = "shrub" }
+"markup.list.unchecked" = { fg = "concrete" }
+"markup.bold" = { fg = "cabin", modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link" = { fg = "tide" }
+"markup.link.url" = { fg = "tide", modifiers = ["underlined"] }
+"markup.link.label" = { fg = "column" }
+"markup.link.text" = { fg = "fog" }
+"markup.quote" = { fg = "haze", modifiers = ["italic"] }
+"markup.raw" = { fg = "shrub" }
+"markup.raw.inline" = { fg = "shrub" }
+"markup.raw.block" = { fg = "shrub" }
+
+"diff.plus" = { fg = "shrub" }
+"diff.plus.gutter" = { fg = "shrub" }
+"diff.minus" = { fg = "signal" }
+"diff.minus.gutter" = { fg = "signal" }
+"diff.delta" = { fg = "platform" }
+"diff.delta.moved" = { fg = "oxide" }
+"diff.delta.conflict" = { fg = "rust" }
+"diff.delta.gutter" = { fg = "platform" }
+
+[palette]
+tunnel   = "#151A24"
+shaft    = "#1D2535"
+dusk     = "#2A3448"
+concrete = "#3D4F66"
+haze     = "#5E7088"
+fog      = "#96A8BC"
+cabin    = "#E0DAC8"
+sky      = "#E8EDF2"
+signal   = "#A05252"
+rust     = "#A0745C"
+platform = "#C8B07A"
+shrub    = "#5B7F59"
+oxide    = "#3AAC92"
+tide     = "#4A86CC"
+column   = "#A87088"
+canopy   = "#8A9E6C"
